@@ -1,7 +1,28 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
-
+.modal-content{
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}
+.modal-title{
+   
+    margin-left: auto;
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}                                 
+#notMember{
+    text-align: center;
+    font-family: 'Calibri', fantasy;
+    font-size: 105%;
+}
+#signIn{
+    width: 100%;
+}
+#signUp{
+    width: 100%;
+}
 
 .topButtons {
  width: 90px;
@@ -31,18 +52,3 @@ margin: 10px 10px 0px 10px;
     margin-top: 0;
     margin: 0 0 0px 10px;
     }
-.postButtons{
-    text-align: center;
-    
-}
-.postButtons1{
-    width: auto;
- padding: 10px;
- cursor: pointer;
- font-weight: bold;
- font-size: 90%;
- background: gold;
- color: black;
-    margin: 13% 10px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
