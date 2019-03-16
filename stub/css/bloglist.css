@@ -1,12 +1,15 @@
 .post {
+    align-self: center;
     position: relative;
-    width: 90%;
+    
+    width: 43%;
     height: 20%;
     background: #fff;
     box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
-    margin: 10px 10px 10px 20px;
+    margin: 10px 10px 10px 70px;
     float:left;
     border-radius: 15px;
+    flex: auto;
 }
     
 .post-left {
@@ -19,13 +22,16 @@
         color: #000;
 }
 .post-content {
-        width: 75%;           
+        width: 75%;   
+    height: 45%;
+        overflow: hidden;
         display: table-cell;
         text-align: left;
         background-color: #E8E8E8;
         color: #000000;
         border-radius: 0 15px 15px 0;
-        padding: 0 20px;      
+        padding: 0 20px;   
+        
 }
 .post-title{
     font-family: 'Itim', cursive;
@@ -46,6 +52,8 @@
 .post-desc{
     height: 100px;
     margin-bottom: 0 !important;
+   
+    
 }
 
 body {
@@ -55,10 +63,28 @@ body {
     margin: 0 !important;
     color: #fff;
     background-color: orange;
+    background: orange;
     background-size: 2000% 2000%;
 }
 .allPostsContainer {
     height: 100%;
     width: 100%;
+    text-align: center;
 
+}
+.modal-content{
+    text-align: center;
+    color: black;
+    font-size: 22px;
+}
+#button12{
+    width: 40%;
+
+    margin: 10px 20px 10px 20px;
+
+}
+#trash{
+    float: right;
+    font-size: 30px;
+    color:black;
 }
